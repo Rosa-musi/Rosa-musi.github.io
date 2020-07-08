@@ -119,6 +119,9 @@ a{
 .palebd_mobil{
     grid-area: palebd_mobil;
 }
+.texto_titular_pc{
+    display: none;
+}
 .texto_titular{
     grid-area: texto_titular;
 }
@@ -491,7 +494,7 @@ main .container_topicos h3{
         grid-template-areas: 
         ". . ."
         ". hello-world palebd"
-        ". texto_titular texto_titular"
+        ". texto_titular_pc texto_titular_pc"
         ". . ."
         ". boton_conocemas . "
         ". . .";
@@ -537,10 +540,14 @@ main .container_topicos h3{
         display: none;
     }
     .texto_titular{
+        display: none;
+    }
+    .texto_titular_pc{
         font-size: 16px;
         width: 628px;
         height: 48px;
         line-height: 24px;
+        grid-area: texto_titular_pc;
     }
        
     .boton_conocemas{
