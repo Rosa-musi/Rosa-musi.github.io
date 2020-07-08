@@ -512,9 +512,6 @@ main .container_topicos h3{
         grid-template-columns: 380px 5px;
         grid-template-rows: auto;
     }
-    .texto_titular{
-        grid-area: texto_titular;
-    }
     .boton_conocemas{
         grid-area:  boton_conocemas;
     }
@@ -543,6 +540,8 @@ main .container_topicos h3{
         display: none;
     }
     .texto_titular_pc{
+        display: grid;
+        font-family: 'IBM Plex Mono', monospace;
         font-size: 16px;
         width: 628px;
         height: 48px;
@@ -680,7 +679,7 @@ main .container_topicos h3{
         top: 2047px;
         height: 555.4px;
         width: 100%;
-        grid-template-columns: 480px 480px 480px;
+        grid-template-columns: 433.5px 433.5px 433.5px;
         grid-template-rows:  98px 364px 364px;
         grid-template-areas: 
         "title_entrevistas title_entrevistas . "
@@ -690,7 +689,7 @@ main .container_topicos h3{
 
     .img{
         display: grid;
-        height: 364px;
+        height: 364.5px;
         width: 480px;
     }
     .img1{
@@ -914,5 +913,3 @@ main .container_topicos h3{
         height: 28px;
     }
 }
-
-
